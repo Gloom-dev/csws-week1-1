@@ -1,5 +1,8 @@
-list = ["Angel", "Germany", "Hannes", "Uni", "gym"]
+food = ("Pizza", "Pie", "Burger", "Muffin", "Soda")
+# food[0] = "Chocolate"
+for element in food:
+    print("Foods: ",element)
 
-for i in range(10):
-    if(i<len(list)):
-        print(list[i])
+food = ("Pizza" , "pie", "Apple", "oranges", "muffin", "soda")
+for element in food:
+    print("Modified Foods: ",element)
