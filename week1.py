@@ -13,4 +13,10 @@ guests.append("Omar")
 
 for x in guests:
     message = f"Hi {x.title()}. You are invited to my dinenr party!"
+    message += f"Damn, I just found out the table won't arrive in time. I have to shrink the list..."
     print(message)
+
+for x in range(len(guests)):
+    if len(guests) > 2:
+        shrinkedperson = guests.pop()
+        print(f"Sorry, {shrinkedperson}. Because i dont't have any space I have to remove you from the list...")
