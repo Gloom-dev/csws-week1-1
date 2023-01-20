@@ -1,2 +1,4 @@
-for x in range(10):
- print("Hello world!" + str(x))
+names = ["Anna", "Hannes", "Felix", "Benj", "Jonas"]
+for x in names:
+    message = f"Hi {x.title()}. You are my friend!"
+    print(message)
